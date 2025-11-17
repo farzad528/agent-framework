@@ -343,7 +343,7 @@ requires-dist = [
     { name = "agent-framework-purview", marker = "extra == 'all'", editable = "packages/purview" },
     { name = "agent-framework-redis", marker = "extra == 'all'", editable = "packages/redis" },
     { name = "azure-identity", specifier = ">=1,<2" },
-    { name = "azure-search-documents", specifier = ">=11.7.0b1" },
+    { name = "azure-search-documents", specifier = "==11.7.0b2" },
     { name = "mcp", extras = ["ws"], specifier = ">=1.13" },
     { name = "openai", specifier = ">=1.99.0" },
     { name = "opentelemetry-api", specifier = ">=1.24" },
@@ -984,7 +984,7 @@ wheels = [
 
 [[package]]
 name = "azure-search-documents"
-version = "11.7.0b1"
+version = "11.7.0b2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "azure-common", marker = "sys_platform == 'darwin' or sys_platform == 'linux' or sys_platform == 'win32'" },
@@ -992,9 +992,9 @@ dependencies = [
     { name = "isodate", marker = "sys_platform == 'darwin' or sys_platform == 'linux' or sys_platform == 'win32'" },
     { name = "typing-extensions", marker = "sys_platform == 'darwin' or sys_platform == 'linux' or sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/bc/9a/819cb9375e431eac8f337777526a88e5f8e10cbf2efd877d39c470f49aa2/azure_search_documents-11.7.0b1.tar.gz", hash = "sha256:0324bd6732dd79c2bc4b6f6429d5a1b96129077d4706620af6f74af4b952fe0c", size = 395057, upload-time = "2025-09-04T23:30:32.571Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f9/ba/bde0f03e0a742ba3bbcc929f91ed2f3b1420c2bb84c9a7f878f3b87ebfce/azure_search_documents-11.7.0b2.tar.gz", hash = "sha256:b6e039f8038ff2210d2057e704e867c6e29bb46bfcd400da4383e45e4b8bb189", size = 423956, upload-time = "2025-11-14T20:09:32.876Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fb/14/8e9bc312fffc21e5220c8ce87f064009e7f577fef69bade2a9713032b646/azure_search_documents-11.7.0b1-py3-none-any.whl", hash = "sha256:aae83b501246438eff77aa3930de9fdd3532c0d219018342fd9d85c682814376", size = 413982, upload-time = "2025-09-04T23:30:34.252Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/26/ed4498374f9088818278ac225f2bea688b4ec979d81bf83a5355c8c366af/azure_search_documents-11.7.0b2-py3-none-any.whl", hash = "sha256:f82117b321344a84474269ed26df194c24cca619adc024d981b1b86aee3c6f05", size = 432037, upload-time = "2025-11-14T20:09:34.347Z" },
 ]
 
 [[package]]
